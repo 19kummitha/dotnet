@@ -1,2 +1,12 @@
 1.What is a static method in C#? How is it different from an instance method?
-Ans: A static method is created by using static keyword and can create instance method directly.Can access static method directly inside main method because main method is static and non-static methods can't be invoked directly inside the static block.
+Ans: A static method is created by using static keyword and can create instance method directly.Can access static method directly inside main method 
+     because main method is static and non-static methods can't be invoked directly inside the static block. instance members can't be accessed by the 
+     static method but static members can be accessed by the instance methods.
+2.Can a static method access instance variables or instance methods in C#? Why or why not?
+Ans: No Static method can't access instance variables or instance methods because static members belongs to the class where as instance members belongs
+     to the object of class.A static method exists before any instance of a class is created.It doesn’t have access to this keyword (which refers to the current instance).
+     Instance members require an object reference, which static methods do not have.
+
+3.What is a static class in C#? How is it different from a non-static class?
+Ans: Static class is created by using keyword static and only static methods will be available inside the static class but non-static class have both static 
+     and instance members.Inheritence is not supported with static class.
