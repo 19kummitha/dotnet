@@ -1,1 +1,2 @@
-
+1.What is a static method in C#? How is it different from an instance method?
+Ans: A static method is created by using static keyword and can create instance method directly.Can access static method directly inside main method because main method is static and non-static methods can't be invoked directly inside the static block.
