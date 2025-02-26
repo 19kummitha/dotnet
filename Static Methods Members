@@ -10,3 +10,9 @@ Ans: No Static method can't access instance variables or instance methods becaus
 3.What is a static class in C#? How is it different from a non-static class?
 Ans: Static class is created by using keyword static and only static methods will be available inside the static class but non-static class have both static 
      and instance members.Inheritence is not supported with static class.
+4. Can a static class have a constructor? If yes, explain its purpose?
+Ans: Yes Static class have a static constructor and Purpose of a Static Constructor: -->Used to initialize static fields-->Executes only once, when the class is first accessed.
+     -->Does not take parameters and cannot be called explicitly.
+5. What is the difference between a static field and an instance field in C#?
+Ans: Static field shares among all the instances of class and instance field shares only to the objects of that class, Static field stored once in static memory and instance 
+     field stored separately for each object.
